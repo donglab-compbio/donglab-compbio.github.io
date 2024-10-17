@@ -20,11 +20,14 @@ author: Rui Dong
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Home: "/"
+  cv: "cv"
+  softwares: "softwares"
+  publications: "publications"
+  Resources and links:
+    - Github: "https://github.com/rdong08"
+    - Google scholar: "https://scholar.google.com/citations?user=wcQO0GAAAAAJ&hl"
+    - Research gate: "https://www.researchgate.net/profile/Rui-Dong-15"
 
 ################
 # --- Logo --- #
