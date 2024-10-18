@@ -204,7 +204,7 @@ img {
 }
 
 .navbar-custom .navbar-nav .nav-item {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 0.8125rem;
   letter-spacing: 0.0625rem;
 }
@@ -326,10 +326,6 @@ img {
 
   .navbar-custom .navbar-nav .nav-link {
     padding: 0.675rem 0 0.675rem 1rem;
-  }
-
-  .navbar-custom .navbar-nav .nav-link {
-  text-transform: capitalize;
   }
 
   .navbar-custom .nav-item.dropdown.show {
