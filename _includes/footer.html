@@ -30,11 +30,14 @@
           <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
         {% endif %}
       {% endif%}
-      <div style="text-align: center; margin-top: 20px;">
-          <a href="https://www.shanghaitech.edu.cn/" target="stu">
-           <img src="{{ '/png/index/stu.png' | relative_url }}" alt="Footer Image" style="width: 150px; height: auto;">
-          </a>  
-        </div>  
+       <div style="text-align: center; margin-top: 20px; display: flex; justify-content: center;">
+        <a href="https://www.shanghaitech.edu.cn" target="stu">
+         <img src="{{ '/png/index/stu.png' | relative_url }}" alt="Footer Image" style="width: 150px; height: auto; margin-right: 50px;">
+        </a>
+       <a href="https://slst.shanghaitech.edu.cn" target="slst">
+         <img src="{{ '/png/index/slst.png' | relative_url }}" alt="Another Footer Image" style="width: 150px; height: auto;">
+        </a>
+       </div>
       </p>
       {% unless site.remove-ads %}<p class="theme-by text-muted">
         Copyright 2024
