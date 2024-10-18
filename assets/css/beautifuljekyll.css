@@ -328,6 +328,10 @@ img {
     padding: 0.675rem 0 0.675rem 1rem;
   }
 
+  .navbar-custom .navbar-nav .nav-link {
+  text-transform: capitalize;
+  }
+
   .navbar-custom .nav-item.dropdown.show {
     background: rgba(0, 0, 0, 0.2);
   }
