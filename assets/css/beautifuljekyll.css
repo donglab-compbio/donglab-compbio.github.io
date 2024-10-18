@@ -205,7 +205,7 @@ img {
 
 .navbar-custom .navbar-nav .nav-item {
   text-transform: capitalize;
-  font-size: 0.8125rem;
+  font-size: 10rem;
   letter-spacing: 0.0625rem;
 }
 
@@ -217,7 +217,7 @@ img {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
-  font-weight: 2000;
+  font-weight: 800;
   color: var(--navbar-text-col);
 }
 
