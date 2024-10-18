@@ -213,7 +213,7 @@ img {
   line-height: 1.25rem;
   padding-top: 0.9375rem;
   padding-bottom: 0.9375rem;
-  font-size: 0.95rem;
+  font-size: 2rem;
 }
 
 .navbar-custom .navbar-brand,
@@ -223,7 +223,7 @@ img {
 }
 
 .navbar-toggler {
-  font-size: 1rem;
+  font-size: 2rem;
   margin: 0.5rem 0;
 }
 .navbar-custom .navbar-toggler:focus,
