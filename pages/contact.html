@@ -24,50 +24,46 @@ permalink: /contact/
             margin: auto;
             overflow: hidden;
         }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .logo {
-            width: 150px;
-            height: auto;
-        }
         .contact-info {
+            display: flex;
+            justify-content: space-between;
             background: #fff;
             padding: 20px;
             margin: 20px 0;
         }
-        .contact-info h2 {
+        .left-info, .right-info {
+            flex: 1;
+        }
+        .left-info {
+            text-align: left;
+        }
+        .right-info {
+            text-align: right;
+        }
+        h2 {
             color: #333;
         }
-        .contact-info p {
+        p {
             color: #666;
         }
-        .map {
-            max-width: 100%;
-            height: auto;
-        }
-        .map-link {
-        text-align: center;
-        display: block; 
-        }
     </style>
+
 </head>
 <body>
-    <h1>Contact Us – Smile Lab</h1>
     <div class="container">
         <div class="contact-info">
-            <h2>Admin: Yun Raymond Fu</h2>
-            <p>Email: yunfu@ece.neu.edu</p>
-            <p>Phone: +1 (617)-373-7328</p>
-            <p>Address: 427 Richards Hall</p>
-            <p>Northeastern University</p>
-            <p>360 Huntington Ave, Boston, MA 02115</p>
+            <div class="left-info">
+                <h2>Admin: Yun Raymond Fu</h2>
+                <p>Email: yunfu@ece.neu.edu</p>
+                <p>Address: 427 Richards Hall</p>
+            </div>
+            <div class="right-info">
+                <p>Northeastern University</p>
+                <p>360 Huntington Ave, Boston, MA 02115</p>
+            </div>
+            <img src="/png/contact/map.png" alt="Map" class="map">
+            <a href="https://map.shanghaitech.edu.cn" class="map-link" style="text-align: center;">Campus Map</a>
         </div>
-        <img src="/png/contact/map.png" alt="Map" class="map">
-        <a href="https://map.shanghaitech.edu.cn" class="map-link" style="text-align: center;">Campus Map</a>
     </div>
 </body>
 </html>
