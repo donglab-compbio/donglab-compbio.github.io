@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rui Dong's CV
-permalink: /pages/dongrui_cv.md
+permalink: /dongrui_cv/
 ---
 
 <div align="center">
