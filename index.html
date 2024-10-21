@@ -12,11 +12,11 @@ subtitle: A Group Devoted to Transcriptional Regulation
 <div class="container">
     <div class="row">
         <h2>Research interests</h2>
-        <div class="row">
+        <div class="content">
             <h3>Computational Biology, Gene Transcription Regulation</h3>
             <p>In tumor cells, genetic mutations can affect key factors that regulate gene expression, such as transcription factors and transcription mediators. This can disrupt the normal gene regulatory network, leading to uncontrolled growth regulation in normal cells and resulting in the unlimited proliferation, invasion, and metastasis of tumor cells. Understanding the unique transcriptional regulatory mechanisms of tumor cells can help identify potential therapeutic targets and develop targeted anti-cancer treatments.
         </div>
-        <div class="row">
+        <div class="content">
             <p>Our laboratory conducts computational biology research on key issues related to gene expression in tumors, focusing on the following areas:
             </p>
             <ul>
@@ -27,3 +27,45 @@ subtitle: A Group Devoted to Transcriptional Regulation
         </div>
     </div>
 </div>
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    margin-bottom: 2rem; /* 调整这个值来改变段落之间的间隔 */
+}
+
+h2 {
+    text-align: center; 
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-top: 1rem; /* 调整列表与上文之间的间隔 */
+    list-style-type: disc; /* 确保列表项前有点 */
+}
+
+@media (min-width: 768px) {
+    .row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
