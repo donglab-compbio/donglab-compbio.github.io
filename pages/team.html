@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Research Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .leader-card {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 4rem;
+        }
+        .leader-image {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 1.5rem;
+        }
+        .leader-name {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .leader-role {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        .member-grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1.5rem;
+        }
+        .member-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 1rem;
+            object-fit: cover;
+        }
+        .member-image-container {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .member-name {
+            font-size: 1.125rem;
+            font-weight: 600;
+            text-align: center;
+        }
+        .member-role {
+            color: #666;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        .member-bio {
+            font-size: 0.875rem;
+            text-align: center;
+        }
+        @media (min-width: 768px) {
+            .leader-card {
+                flex-direction: row;
+            }
+            .leader-image {
+                width: 33.333%;
+            }
+            .leader-content {
+                width: 66.667%;
+            }
+            .member-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (min-width: 1024px) {
+            .member-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Our Research Team</h1>
+        
+        <div class="leader-section">
+            <h2>Lab Leader</h2>
+            <div class="card leader-card">
+                <img src="/placeholder.svg?height=300&width=300" alt="Prof. Jane Doe" class="leader-image">
+                <div class="card-content leader-content">
+                    <h3 class="leader-name">Prof. Jane Doe</h3>
+                    <p class="leader-role">Lab Director</p>
+                    <p>Prof. Jane Doe has over 20 years of experience in the field and has published numerous papers in top journals.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="team-section">
+            <h2>Team Members</h2>
+            <div class="member-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="member-image-container">
+                            <img src="/placeholder.svg?height=200&width=200" alt="John Smith" class="member-image">
+                        </div>
+                        <h3 class="member-name">John Smith</h3>
+                        <p class="member-role">Senior Researcher</p>
+                        <p class="member-bio">John specializes in data analysis and machine learning algorithms.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="member-image-container">
+                            <img src="/placeholder.svg?height=200&width=200" alt="Emily Chen" class="member-image">
+                        </div>
+                        <h3 class="member-name">Emily Chen</h3>
+                        <p class="member-role">PhD Student</p>
+                        <p class="member-bio">Emily is researching novel approaches to quantum computing.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="member-image-container">
+                            <img src="/placeholder.svg?height=200&width=200" alt="Michael Johnson" class="member-image">
+                        </div>
+                        <h3 class="member-name">Michael Johnson</h3>
+                        <p class="member-role">Lab Technician</p>
+                        <p class="member-bio">Michael maintains our state-of-the-art equipment and assists in experiments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
