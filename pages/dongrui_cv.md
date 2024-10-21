@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Rui Dong's CV
+permalink: /cv/
 ---
 
 <div align="center">
