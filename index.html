@@ -59,20 +59,17 @@ subtitle: A Group Devoted to Transcriptional Regulation
 <script type="text/javascript">
     // This script will be replaced by a React component in a real-world scenario
     const newsItems = [
-        { date: '2024-03-15', title: 'New research paper published in Nature Genetics' },
-        { date: '2024-03-01', title: 'Lab receives major grant for cancer research' },
-        { date: '2024-02-15', title: 'Dr. Smith joins the lab as a postdoctoral researcher' },
-        { date: '2024-02-01', title: 'Lab presents findings at International Cancer Conference' },
-        { date: '2024-01-15', title: 'New collaboration with Mayo Clinic announced' },
-        { date: '2024-01-01', title: 'Lab celebrates successful year with team dinner' },
-        { date: '2023-12-15', title: 'Annual lab retreat focuses on future research directions' }
+        { date: '2024 March', title: 'Welcome new graduate student Yu-Ying Deng to join our group!' },
+        { date: '2024 March', title: 'Welcome new graduate student Zheng Li to join our group!' },
+        { date: '2024 March', title: 'Welcome new graduate student Xiao-Yi Chen to join our group!' },
+        { date: '2024 February', title: 'Opening of the Dong lab in ShanghaiTech University.' }
     ];
 
     const newsContainer = document.getElementById('news-container');
     newsItems.forEach(item => {
         const newsItem = document.createElement('div');
         newsItem.className = 'news-item';
-        newsItem.innerHTML = `<p><strong>${item.date}</strong>: ${item.title}</p>`;
+        newsItem.innerHTML = `<p><strong style="color: orange; font-style: italic;">${item.date}</strong>: ${item.title}</p>`;
         newsContainer.appendChild(newsItem);
     });
 </script>
