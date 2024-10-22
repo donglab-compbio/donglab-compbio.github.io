@@ -29,13 +29,35 @@ subtitle: A Group Devoted to Transcriptional Regulation
     </div>
 
     <div class="row">
-        <h2>Latest News</h2>
-        <div id="news-container"></div>
-        <div style="text-align: right; margin-top: 20px;">
-            <a href="/news" class="btn btn-primary">View All News</a>
-        </div>
+        <h2><a href="/news" class="news-link">Latest News</a></h2>
+        <div id="news-container" class="news-scroll-container"></div>
     </div>
 </div>
+
+<style>
+    .news-link {
+        color: inherit;
+        text-decoration: none;
+    }
+    .news-link:hover {
+        text-decoration: underline;
+    }
+    .news-scroll-container {
+        max-height: 200px;
+        overflow-y: auto;
+        border: 1px solid #e0e0e0;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .news-item {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .news-item:last-child {
+        border-bottom: none;
+    }
+</style>
 
 <script type="text/javascript">
     // This script will be replaced by a React component in a real-world scenario
@@ -44,12 +66,15 @@ subtitle: A Group Devoted to Transcriptional Regulation
         { date: '2024-03-01', title: 'Lab receives major grant for cancer research' },
         { date: '2024-02-15', title: 'Dr. Smith joins the lab as a postdoctoral researcher' },
         { date: '2024-02-01', title: 'Lab presents findings at International Cancer Conference' },
-        { date: '2024-01-15', title: 'New collaboration with Mayo Clinic announced' }
+        { date: '2024-01-15', title: 'New collaboration with Mayo Clinic announced' },
+        { date: '2024-01-01', title: 'Lab celebrates successful year with team dinner' },
+        { date: '2023-12-15', title: 'Annual lab retreat focuses on future research directions' }
     ];
 
     const newsContainer = document.getElementById('news-container');
     newsItems.forEach(item => {
         const newsItem = document.createElement('div');
+        newsItem.className = 'news-item';
         newsItem.innerHTML = `<p><strong>${item.date}</strong>: ${item.title}</p>`;
         newsContainer.appendChild(newsItem);
     });
