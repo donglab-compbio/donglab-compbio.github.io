@@ -4,7 +4,6 @@ title: Lab of Computational Biology
 subtitle: A Group Devoted to Transcriptional Regulation
 ---
 
-
 <div style="text-align: center; margin-top: 20px; display: flex; justify-content: center;">
     <img src="{{ '/png/index/lab.png' | relative_url }}" alt="Footer Image" style="width: 500px; height: auto;">
 </div>
@@ -18,14 +17,40 @@ subtitle: A Group Devoted to Transcriptional Regulation
                 This can disrupt the normal gene regulatory network, leading to uncontrolled growth regulation in normal cells and resulting in the unlimited proliferation, invasion, and metastasis of tumor cells. 
                 Understanding the unique transcriptional regulatory mechanisms of tumor cells can help identify potential therapeutic targets and develop targeted anti-cancer treatments.<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;Our laboratory conducts computational biology research on key issues related to gene expression in tumors, focusing on the following areas:
+            </p>
         </div>
         <div class="content">
             <ul>
               <li>The mechanism by which special transcription factors promote tumorigenesis in tumors.</li>
               <li>The relationship between genomic repeat sequences and tumorigenesis.</li>
-              <li>The regulation of gene expression at the cellular subpopulation level and spatial transcriptome level in tumor cells..</li>
+              <li>The regulation of gene expression at the cellular subpopulation level and spatial transcriptome level in tumor cells.</li>
             </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Latest News</h2>
+        <div id="news-container"></div>
+        <div style="text-align: right; margin-top: 20px;">
+            <a href="/news" class="btn btn-primary">View All News</a>
         </div>
     </div>
 </div>
 
+<script type="text/javascript">
+    // This script will be replaced by a React component in a real-world scenario
+    const newsItems = [
+        { date: '2024-03-15', title: 'New research paper published in Nature Genetics' },
+        { date: '2024-03-01', title: 'Lab receives major grant for cancer research' },
+        { date: '2024-02-15', title: 'Dr. Smith joins the lab as a postdoctoral researcher' },
+        { date: '2024-02-01', title: 'Lab presents findings at International Cancer Conference' },
+        { date: '2024-01-15', title: 'New collaboration with Mayo Clinic announced' }
+    ];
+
+    const newsContainer = document.getElementById('news-container');
+    newsItems.forEach(item => {
+        const newsItem = document.createElement('div');
+        newsItem.innerHTML = `<p><strong>${item.date}</strong>: ${item.title}</p>`;
+        newsContainer.appendChild(newsItem);
+    });
+</script>
