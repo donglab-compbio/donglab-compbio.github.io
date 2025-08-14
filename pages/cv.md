@@ -34,7 +34,7 @@ __Dana-Farber Cancer Institute, Harvard Medical School, Postdoctoral Reserach Fe
 
 
 `2017/08-2018/08`
-__Shanghai Institute of Nutrition and Health, Chinese Academy of Sciences, Reserach Fellow__
+__Shanghai Institute of Nutrition and Health, Chinese Academy of Sciences, Reserach Assistant__
 
 
 ## Education
