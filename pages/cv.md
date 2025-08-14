@@ -7,16 +7,34 @@ permalink: /cv/
 <div align="center">
   <h1>Rui Dong</h1>
 </div>
-Research fellow in Department of Pathology, Massachusetts General Hospital, Harvard Medical School.
+ShanghaiTech University, School of Life Science and Technology, Assistant Professor.
 
 <div id="webaddress">
-<a href="rdong@mgh.harvard.edu">rdong@mgh.harvard.edu</a>
+<a href="rdong@@shanghaitech.edu.cn">rdong@@shanghaitech.edu.cn</a>
 </div>
 
 
 ### Specialized in
 
 Computational Biology, Transcriptomics, Epigenomics
+
+
+## PostDoc training and work experience
+
+`2024/02-Now`
+__ShanghaiTech University, School of Life Science and Technology, Assistant Professor__
+
+
+`2020/08-2024/02`
+__Department of Pathology, Massachusetts General Hospital, Harvard Medical School, Postdoctoral Reserach Fellow__
+
+
+`2018/08-2020/08`
+__Dana-Farber Cancer Institute, Harvard Medical School, Postdoctoral Reserach Fellow__
+
+
+`2017/08-2018/08`
+__Shanghai Institute of Nutrition and Health，Chinese Academy of Sciences, Reserach Fellow__
 
 
 ## Education
