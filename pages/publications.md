@@ -12,6 +12,9 @@ permalink: /publications/
 You can visit [Google Scholar](https://scholar.google.com/citations?user=wcQO0GAAAAAJ&hl) for more details<br>
 \# Co-first authors; \* Corresponding authors
 
+### **2026**
+* Zhang Y\#, Zheng R\#, Tsuji T, Wang CH, Liu XY, Xing YH, Darcy J, Lynes DM, Lundh M, Arianti R, Győry F, **Dong R**, Emanuelli B, Johnstone ES, Rivera NM, Kristóf E, Kahn RC, Chen K\*, Tseng YH\*. [A conserved hormonal signalling–H2A. Z axis rapidly reorganizes 3D chromatin interactions in adipocyte thermogenesis.](https://www.nature.com/articles/s42255-026-01510-2) ***Nat. Metab.***, 2026: 1-20.
+
 ### **2024**
 
 * Boulay G#, Broye L#, **Dong R**#, Iyer S, Sanalkumar R, Xing YH, Buisson R, Rengarajan S, Naigles B, Duc B, Volorio A, Awad M, Renella R, Chebib I, Nielsen P, Choy E, Cote G, Zou L, Letovanec I, Stamenkovic I, Rivera NM\*, Riggi N\*. [EWS-WT1 fusion isoforms establish oncogenic programs and therapeutic vulnerabilities in desmoplastic small round cell tumors.](https://www.nature.com/articles/s41467-024-51851-3) ***Nat. Commun.***, 2024, 15, 7460.
