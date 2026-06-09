@@ -70,6 +70,15 @@ You can visit [Google Scholar](https://scholar.google.com/citations?user=wcQO0GA
 
 \# Co-first authors; \* Corresponding authors
 
+### **2026**
+* Zhang Y\#, Zheng R\#, Tsuji T, Wang CH, Liu XY, Xing YH, Darcy J, Lynes DM, Lundh M, Arianti R, Győry F, **Dong R**, Emanuelli B, Johnstone ES, Rivera NM, Kristóf E, Kahn RC, Chen K\*, Tseng YH\*. A conserved hormonal signalling–H2A. Z axis rapidly reorganizes 3D chromatin interactions in adipocyte thermogenesis. ***Nat. Metab.***, 2026: 1-20.
+
+### **2024**
+* Boulay G\#, Broye L\#, **Dong R**#, Iyer S, Sanalkumar R, Xing YH, Buisson R, Rengarajan S, Naigles B, Duc B, Volorio A, Awad M, Renella R, Chebib I, Nielsen P, Choy E, Cote G, Zou L, Letovanec I, Stamenkovic I, Rivera NM\*, Riggi N\*. EWS-WT1 fusion isoforms establish oncogenic programs and therapeutic vulnerabilities in desmoplastic small round cell tumors. ***Nat. Commun.***, 2024, 15(1): 7460.
+* Takahashi M\*, Chong BH, Zhang S, Yang TY, Lazarov JM, Harry S, Maynard M, Hilbert B, White DR, Murrey EH, Tsou CC, Vordermark K, Assaad J, Gohar M, Dürr RB, Richter M, Patel H, Kryukov G, Brooijmans N, Alghali ASO, Rubio K, Villanueva A, Zhang J, Ge M, Makram F, Griesshaber H, Harrison D, Koglin AS, Ojeda S, Karakyriakou B, Healy A,  Popoola G, Rachmin I, Khandelwal N, Neil RJ, Tien PC, Chen N, Hosp T, Ouweland S, Hara T, Bussema L, **Dong R**, Shi L, Rasmussen QM, Domingues AC, Lawless A, Fang J, Yoda S, Nguyen LP, Reeves SM, Wakefield FN, Acker A, Clark SE, Dubash T, Kastanos J, Oh E, Fisher ED, Maheswaran S, Haber AD, Boland MG, Sade-Feldman M, Jenkins WR, Hata NA, Bardeesy MN, Suvà LM, Martin RB, Liau BB, Ott JC, Rivera NM, Lawrence SM\*, Bar-Peled L\*. DrugMap: A quantitative pan-cancer analysis of cysteine ligandability. ***Cell***, 2024, 187(10): 2536-2556.
+
+
+
 ### **2023**
 
 * Xing YH\#, **Dong R**\#, Lee L, Rengarajan S, Riggi N, Boulay G, Rivera N. M\*. DisP-seq reveals the genome-wide functional organization of DNA-associated disordered proteins. ***Nat. Biotechnol.***, 2023: 1-13.
